@@ -20,6 +20,7 @@ class Server {
             clientId: process.env.GH_CLIENT_ID,
             oAuthToken: localStorage.getItem('oauth'),
             oAuthState: String(Math.random() * 1000000),
+            test: 2,
             rateLimitRemaining: '',
             rateLimitTotal: '',
             rateResetDate: '',
