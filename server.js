@@ -13,6 +13,7 @@ class Server {
         this.serverStr = 'Server-to-Server';
         this.test = true
         this.test2 = true
+        this.test3 = true
         this.searchStr = 'Search';
         this.userStr = 'User';
         this.state = {
